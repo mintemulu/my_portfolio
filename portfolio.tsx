@@ -76,85 +76,78 @@ export default function Portfolio() {
     title: "Afaan Oromo Learning App",
     description: "A mobile app built with React Native and Expo to help users learn Afaan Oromo. Includes interactive lessons, voice practice, and progress tracking.",
     tech: ["React Native", "Expo", "Firebase", "React-Native StyleSheet", "JavaScript"],
-    github: "#",
+    github: "https://github.com/mintemulu/ReactNativeAfaanOromoLearningApp",
     live: "#",
-    image: "/placeholder.svg?height=200&width=300",
-    stats: { stars: 124, views: 2300 },
+    image: "/oromo.png",
+    stats: { stars: 0, views: 0 },
   },
   {
     title: "Patient Medical Registration Portal",
     description: "A web-based portal for hospitals where admins can register doctors and patients, and doctors can manage patient medical records. Features role-based access control and secure authentication.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "@emotion/react", "JavaScript"],
-    github: "#",
+    github: "https://github.com/mintemulu/completeproject",
     live: "#",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/medical.jpg",
     stats: { stars: 124, views: 2300 },
   },
   {
     title: "AI-based Smart Meter Digitization",
     description: "A system that automatically reads electricity meters using IoT devices (ESP32) and stores readings in a cloud database. Includes backend APIs and a web dashboard for monitoring.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "ESP32", "Cron Jobs", "@emotion/react"],
-    github: "#",
+    github: "https://github.com/mintemulu/meter_digitization",
     live: "#",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/meter.jpg",
     stats: { stars: 124, views: 2300 },
   },
   {
     title: "Finance Manager",
     description: "A web application to manage personal finances, track income, expenses, and visualize monthly spending patterns with interactive charts.",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Chart.js", "Tailwind CSS"],
-    github: "#",
-    live: "#",
-    image: "/placeholder.svg?height=200&width=300",
-    stats: { stars: 124, views: 2300 },
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Chart.js", "CSS"],
+    github: "https://github.com/mintemulu/myapp-personal-finance-manager",
+    live: "https://myapp-five-dusky.vercel.app/",
+    image: "/finance.jpg",
+    stats: { stars:0, views:0},
   },
-  {
-    title: "Song Management App",
-    description: "A web application for managing songs with full CRUD functionality. Users can add, edit, and delete songs, with state efficiently managed using Redux and Redux Toolkit.",
-    tech: ["React.js", "Redux", "Redux Toolkit", "@emotion/react", "JavaScript"],
-    github: "#",
-    live: "#",
-    image: "/placeholder.svg?height=200&width=300",
-    stats: { stars: 124, views: 2300 },
-  },
+  
   {
     title: "Amazon Frontend Clone",
     description: "A frontend clone of Amazon e-commerce website featuring product listings, shopping cart, and responsive UI. Focused on recreating Amazon’s design and layout.",
-    tech: ["React.js", "Tailwind CSS", "JavaScript", "Redux"],
+    tech: ["React.js", "CSS", "JavaScript", "Redux"],
     github: "https://github.com/mintemulu/amazon-frontend-react",
-    live: "#",
-    image: "/placeholder.svg?height=200&width=300",
+    live: "https://amazon-frontend-app.netlify.app/",
+    image: "/amazon.jpg",
     stats: { stars: 124, views: 2300 },
   },
   {
-    title: "Apple Frontend Clone",
+    title: "Apple Clone",
     description: "A frontend clone of Apple’s official website showcasing products, responsive design, and interactive UI elements.",
-    tech: ["React.js", "Tailwind CSS", "JavaScript", "@emotion/react"],
-    github: "#",
-    live: "#",
-    image: "/placeholder.svg?height=200&width=300",
-    stats: { stars: 124, views: 2300 },
+    tech: ["React.js",  "CSS", "JavaScript", "@emotion/react"],
+    github: "https://github.com/mintemulu/apple-clone",
+    live: "https://apple-project-yakw.vercel.app/",
+    image: "/apple.jpg",
+    stats: { stars: 0, views: 0 },
   },
   {
     title: "Netflix Frontend Clone",
     description: "A frontend clone of Netflix, including movie listings, responsive layout, and interactive components. Built to practice API integration and frontend architecture.",
     tech: ["React.js", "Tailwind CSS", "JavaScript", "Redux"],
-    github: "#",
-    live: "#",
-    image: "/placeholder.svg?height=200&width=300",
+    github: "https://github.com/mintemulu/netflix-clone",
+    live: "https://eehjnkk.netlify.app/",
+    image: "/netflix.jpg",
     stats: { stars: 124, views: 2300 },
   },
   ]
 
   const experiences = [
     {
-      title: "Junior Developer Intern",
-      company: "Ministry of Innovation and Technology",
-      period: "2023 - 2024",
-      location: "on-site",
-      description:
-        "Collaborated with the development team to build and maintain government web applications. Assisted in implementing responsive UI components using React.js and contributed to backend API development with Node.js and Express. Participated in code reviews and agile development processes.",
-    },
+  title: "Junior Developer Intern",
+  company: "Ministry of Innovation and Technology",
+  period: "Sept 2024 - Jan 2025",
+  location: "Addis Ababa, Ethiopia (On-site)",
+  description:
+    "Developed the Patient Medical Registration Portal using the MERN stack (MongoDB, Express.js, React.js, Node.js) with role-based access control for admins and doctors. Integrated secure authentication and patient record management features. Collaborated with a team of six interns to gain hands-on experience in IoT, working with Arduino components and sensors. Strengthened backend API development, database management, and responsive UI design skills during the internship.",
+},
+
   ]
 
   const containerVariants = {
@@ -269,7 +262,7 @@ export default function Portfolio() {
               className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
             >
               <span className="bg-gradient-to-r from-cyan-400 via-green-400 to-blue-400 bg-clip-text text-transparent">
-                MERN Stack
+                Full Stack
               </span>
               <br />
               <span className="text-white">Developer</span>
@@ -761,23 +754,25 @@ export default function Portfolio() {
                 <CardContent className="p-6">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-semibold text-white mb-1">Bachelor of Science in Computer Science</h3>
-                      <p className="text-cyan-400 font-medium">University Name</p>
+                      <h3 className="text-xl font-semibold text-white mb-1">Bachelor of Science in Electrical and Computer Engineering</h3>
+                      <p className="text-cyan-400 font-medium">Jimma University</p>
                     </div>
                     <div className="flex flex-col md:items-end mt-2 md:mt-0">
                       <div className="flex items-center text-gray-400 text-sm mb-1">
                         <Calendar size={16} className="mr-1" />
-                        2020 - 2024
+                        2021- 2025
                       </div>
                       <div className="flex items-center text-gray-400 text-sm">
                         <MapPin size={16} className="mr-1" />
-                        City, Country
+                        Jimma , Ethiopia
                       </div>
                     </div>
                   </div>
                   <p className="text-gray-300">
-                    Studied core computer science concepts including data structures, algorithms, software engineering,
-                    and web development. Completed coursework in React, Node.js, and database management systems.
+                   <span>
+                    Studied core computer science concepts including data structures, algorithms, software engineering, and web development. Completed coursework in React, Node.js, and database management systems, and developed the Patient Medical Registration Portal project with role-based access control and secure backend functionality.
+                  </span>
+
                   </p>
                 </CardContent>
               </Card>
@@ -788,7 +783,7 @@ export default function Portfolio() {
                 <CardContent className="p-6">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-semibold text-white mb-1">Full Stack Web Development Bootcamp</h3>
+                      <h3 className="text-xl font-semibold text-white mb-1">Evangadi Tech</h3>
                       <p className="text-green-400 font-medium">Online Learning Platform</p>
                     </div>
                     <div className="flex flex-col md:items-end mt-2 md:mt-0">
@@ -804,8 +799,7 @@ export default function Portfolio() {
                   </div>
                   <p className="text-gray-300">
                     Intensive training in modern web development technologies including the MERN stack (MongoDB,
-                    Express.js, React.js, Node.js). Developed multiple full-stack applications and collaborated with
-                    peers on group projects.
+                    Express.js, React.js, Node.js). Developed multiple full-stack applications
                   </p>
                 </CardContent>
               </Card>
@@ -845,11 +839,11 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <motion.div whileHover={{ x: 10 }} className="flex items-center">
                   <Mail className="text-cyan-400 mr-4" size={20} />
-                  <span className="text-gray-300">developer@example.com</span>
+                  <span className="text-gray-300">mintesinotmulu18@gmail.com</span>
                 </motion.div>
                 <motion.div whileHover={{ x: 10 }} className="flex items-center">
                   <MapPin className="text-cyan-400 mr-4" size={20} />
-                  <span className="text-gray-300">San Francisco, CA</span>
+                  <span className="text-gray-300">Addis Ababa,Ethiopia</span>
                 </motion.div>
               </div>
             </motion.div>
