@@ -62,7 +62,7 @@ export default function Portfolio() {
   const socialLinks = [
   { Icon: Github, href: "https://github.com/mintemulu" },
   { Icon: Linkedin, href: "https://www.linkedin.com/in/mintesinotmulu/" },
-  { Icon: Mail, href: "mailto:mintesinotmulu@gmail.com" },
+  { Icon: Mail, href: "mailto:mintesinotmulu18@gmail.com" },
 ];
 
   const skills = {
@@ -72,33 +72,16 @@ export default function Portfolio() {
   }
 
   const projects = [
-   {
-    title: "Afaan Oromo Learning App",
-    description: "A mobile app built with React Native and Expo to help users learn Afaan Oromo. Includes interactive lessons, voice practice, and progress tracking.",
-    tech: ["React Native", "Expo", "Firebase", "React-Native StyleSheet", "JavaScript"],
-    github: "https://github.com/mintemulu/ReactNativeAfaanOromoLearningApp",
-    live: "#",
-    image: "/oromo.png",
-    stats: { stars: 0, views: 0 },
-  },
   {
     title: "Patient Medical Registration Portal",
     description: "A web-based portal for hospitals where admins can register doctors and patients, and doctors can manage patient medical records. Features role-based access control and secure authentication.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "@emotion/react", "JavaScript"],
     github: "https://github.com/mintemulu/completeproject",
-    live: "#",
+    live: "https://patient-record-management-system-six.vercel.app/",
     image: "/medical.jpg",
-    stats: { stars: 124, views: 2300 },
+    stats: { stars: 0, views: 0 },
   },
-  {
-    title: "AI-based Smart Meter Digitization",
-    description: "A system that automatically reads electricity meters using IoT devices (ESP32) and stores readings in a cloud database. Includes backend APIs and a web dashboard for monitoring.",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "ESP32", "Cron Jobs", "@emotion/react"],
-    github: "https://github.com/mintemulu/meter_digitization",
-    live: "#",
-    image: "/meter.jpg",
-    stats: { stars: 124, views: 2300 },
-  },
+  
   {
     title: "Finance Manager",
     description: "A web application to manage personal finances, track income, expenses, and visualize monthly spending patterns with interactive charts.",
@@ -878,7 +861,8 @@ export default function Portfolio() {
                       />
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                      <Button className="w-full bg-gradient-to-r from-cyan-500 to-green-500 hover:from-cyan-600 hover:to-green-600 text-white shadow-lg shadow-cyan-500/25">
+                      <Button onClick={() => window.location.href = "mailto:mintesinotmulu18@gmail.com"}
+                      className="w-full bg-gradient-to-r from-cyan-500 to-green-500 hover:from-cyan-600 hover:to-green-600 text-white shadow-lg shadow-cyan-500/25">
                         Send Message
                       </Button>
                     </motion.div>
