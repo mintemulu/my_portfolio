@@ -72,7 +72,18 @@ export default function Portfolio() {
   }
 
   const projects = [
-  {
+ 
+ {
+    title: "VIP Gifts Product Showcase Website",
+    description: "Developed a responsive product showcase website for VIP Gifts featuring dynamic category filtering, product modals, and integrated contact functionality. Built with React and vite using TypeScript, with custom CSS styling for a modern dark theme design. Implemented client-side state management for seamless product filtering and interactive user experience across all devices.",
+    tech: ["React.js", "vite", "typscript", "custom CSS", "JavaScript"],
+    github: "https://github.com/mintemulu/VipgiftWEBSITE",
+    live: "https://vipgift-website.vercel.app/",
+    image: "/vipgift.jpg",
+    stats: { stars: 0, views: 0 },
+
+ },
+    {
     title: "Patient Medical Registration Portal",
     description: "A web-based portal for hospitals where admins can register doctors and patients, and doctors can manage patient medical records. Features role-based access control and secure authentication.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "@emotion/react", "JavaScript"],
